@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, ArrowUpRight } from "lucide-react";
 
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { EMAIL, PHONE, PHONE_TEL } from "@/components/site-header";
+import { EMAIL, PHONE, PHONE_TEL } from "@/components/contact";
 import heroBathroom from "@/assets/hero-bathroom.jpg";
 
 export const Route = createFileRoute("/contact")({
