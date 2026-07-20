@@ -16,7 +16,7 @@ import heroTiles from "@/assets/hero-tiles.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Hicham Kush Metro Tile & Stone" },
+      { title: "Gallery — Dan Kush Metro Tile & Stone" },
       {
         name: "description",
         content:

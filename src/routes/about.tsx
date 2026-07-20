@@ -9,13 +9,13 @@ import galleryFoyer from "@/assets/gallery-foyer.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Hicham Kush Metro Tile & Stone" },
+      { title: "About — Dan Kush Metro Tile & Stone" },
       {
         name: "description",
         content:
-          "The story, philosophy, and craftsmen behind Hicham Kush Metro Tile & Stone in New Jersey.",
+          "The story, philosophy, and craftsmen behind Dan Kush Metro Tile & Stone in New Jersey.",
       },
-      { property: "og:title", content: "About — Hicham Kush Metro Tile & Stone" },
+      { property: "og:title", content: "About — Dan Kush Metro Tile & Stone" },
       {
         property: "og:description",
         content: "Old-World stone technique for modern American homes.",
@@ -56,7 +56,7 @@ function AboutPage() {
             <em className="italic text-[color:var(--gold-soft)]">extraordinary stone</em>.
           </>
         }
-        subtitle="Founded in New Jersey, Hicham Kush Metro Tile & Stone brings decades of Old-World stone technique to residential and boutique commercial projects across the tri-state area."
+        subtitle="Founded in New Jersey, Dan Kush Metro Tile & Stone brings decades of Old-World stone technique to residential and boutique commercial projects across the tri-state area."
         image={craftsman}
       />
 
@@ -65,11 +65,11 @@ function AboutPage() {
         <div className="container-luxe grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           <div className="lg:col-span-5">
             <p className="eyebrow">Our Founder</p>
-            <h2 className="display mt-4 text-4xl md:text-5xl">Hicham Kush</h2>
+            <h2 className="display mt-4 text-4xl md:text-5xl">Dan Kush</h2>
           </div>
           <div className="lg:col-span-7 space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              Hicham began cutting stone as an apprentice, learning that the difference between good
+              Dan began cutting stone as an apprentice, learning that the difference between good
               work and enduring work is measured in fractions of a millimeter. After two decades
               practicing his craft across residences, restaurants, and private galleries, he founded
               Metro Tile &amp; Stone to bring that discipline to New Jersey.

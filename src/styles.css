@@ -40,7 +40,7 @@
 :root {
   --radius: 0.25rem;
 
-  /* Palette derived from the Hicham Kush logo1: warm ivory paper,
+  /* Palette derived from the Dan Kush logo1: warm ivory paper,
      ink black, and a warm antique gold accent. */
   --cream: oklch(0.985 0.008 85);
   --ink: oklch(0.16 0.01 60);

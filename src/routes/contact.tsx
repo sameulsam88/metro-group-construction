@@ -10,12 +10,12 @@ import heroBathroom from "@/assets/hero-bathroom.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Hicham Kush Metro Tile & Stone" },
+      { title: "Contact — Dan Kush Metro Tile & Stone" },
       {
         name: "description",
         content: "Request a consultation. Serving New Jersey and the NY metro. Call 551 206 7097.",
       },
-      { property: "og:title", content: "Contact — Hicham Kush Metro Tile & Stone" },
+      { property: "og:title", content: "Contact — Dan Kush Metro Tile & Stone" },
       {
         property: "og:description",
         content: "Unhurried consultations for luxury tile and stone projects in NJ.",

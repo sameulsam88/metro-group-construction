@@ -1,10 +1,8 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Phone } from "lucide-react";
-
-export const PHONE = "551 206 7097";
-export const PHONE_TEL = "5512067097";
-export const EMAIL = "info@hichamkushtile.com";
+import { Topbar } from "./topbar";
+import { PHONE, PHONE_TEL, EMAIL } from "./contact";
 
 const nav = [
   { label: "Home", to: "/" },
@@ -38,8 +36,9 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
 
   return (
     <>
+      <Topbar />
       <header
-        className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 bg-cream text-ink ${
+        className={`fixed inset-x-0 top-0 lg:top-10 z-50 transition-all duration-500 bg-cream text-ink ${
           scrolled
             ? "shadow-[0_1px_0_0_rgba(0,0,0,0.06)] border-b border-ink/10"
             : "border-b border-transparent"
@@ -155,6 +154,57 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
                 menuOpen ? "opacity-100 translate-y-0 delay-500" : "opacity-0 translate-y-4"
               }`}
             >
+              <div className="mt-4 mb-6 flex items-center gap-4">
+                <a href="#" aria-label="Instagram" className="hover:text-[color:var(--gold-soft)]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5" />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Facebook" className="hover:text-[color:var(--gold-soft)]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M18 2h-3a4 4 0 00-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 011-1h3z" />
+                  </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" className="hover:text-[color:var(--gold-soft)]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-14h4v2" />
+                    <rect x="2" y="9" width="4" height="11" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </a>
+              </div>
               <a
                 href={`tel:${PHONE_TEL}`}
                 className="inline-flex items-center gap-3 bg-cream text-ink px-6 py-4 text-[0.7rem] uppercase tracking-[0.32em] w-full justify-center"
@@ -162,8 +212,8 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
                 <Phone className="h-3.5 w-3.5" /> {PHONE}
               </a>
               <p className="mt-6 text-xs text-cream/60 leading-relaxed">
-                Hicham Kush Metro Tile &amp; Stone — New Jersey. Museum-grade tile &amp; natural
-                stone, designed, fabricated and installed.
+                Dan Kush Metro Tile &amp; Stone — New Jersey. Museum-grade tile &amp; natural stone,
+                designed, fabricated and installed.
               </p>
             </div>
           </div>

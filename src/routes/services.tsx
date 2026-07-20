@@ -12,7 +12,7 @@ import galleryFoyer from "@/assets/gallery-foyer.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Hicham Kush Metro Tile & Stone" },
+      { title: "Services — Dan Kush Metro Tile & Stone" },
       {
         name: "description",
         content:

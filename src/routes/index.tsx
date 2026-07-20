@@ -99,14 +99,14 @@ function Index() {
           <div className="lg:col-span-5 relative">
             <img
               src={showroom}
-              alt="Hicham Kush showroom — curated inventory of marble, travertine, onyx, and porcelain tile"
+              alt="Dan Kush showroom — curated inventory of marble, travertine, onyx, and porcelain tile"
               loading="lazy"
               className="w-full h-[520px] object-cover"
             />
             <div className="absolute -bottom-6 -right-6 hidden md:block bg-background border border-[color:var(--gold)] px-8 py-6 max-w-[240px]">
               <p className="display text-2xl text-foreground italic">"Every seam a signature."</p>
               <p className="mt-3 text-[0.65rem] uppercase tracking-[0.32em] text-[color:var(--gold)]">
-                — Hicham Kush
+                — Dan Kush
               </p>
             </div>
           </div>
@@ -243,7 +243,7 @@ function Index() {
             {[
               {
                 quote:
-                  "Hicham treated our foyer like a piece of sculpture. The book-matched onyx is the first thing every guest notices.",
+                  "Dan treated our foyer like a piece of sculpture. The book-matched onyx is the first thing every guest notices.",
                 name: "Elena R.",
                 role: "Homeowner · Alpine, NJ",
               },

@@ -73,14 +73,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Hicham Kush Metro Tile & Stone — Creative Tile Ideas | New Jersey" },
+      { title: "Dan Kush Metro Tile & Stone — Creative Tile Ideas | New Jersey" },
       {
         name: "description",
         content:
-          "Luxury tile and natural stone design, fabrication, and installation across New Jersey. Marble, porcelain, mosaic, and custom stonework by Hicham Kush Metro Tile & Stone.",
+          "Luxury tile and natural stone design, fabrication, and installation across New Jersey. Marble, porcelain, mosaic, and custom stonework by Dan Kush Metro Tile & Stone.",
       },
-      { name: "author", content: "Hicham Kush Metro Tile & Stone" },
-      { property: "og:title", content: "Hicham Kush Metro Tile & Stone" },
+      { name: "author", content: "Dan Kush Metro Tile & Stone" },
+      { property: "og:title", content: "Dan Kush Metro Tile & Stone" },
       {
         property: "og:description",
         content:
