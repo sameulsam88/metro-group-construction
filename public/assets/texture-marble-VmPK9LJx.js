@@ -1,0 +1,1 @@
+var e=`/assets/texture-marble-6whjvxMC.jpg`;export{e as t};

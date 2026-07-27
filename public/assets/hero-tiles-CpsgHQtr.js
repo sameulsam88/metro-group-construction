@@ -1,0 +1,1 @@
+var e=`/assets/hero-tiles-Ct10bV4x.jpg`;export{e as t};

@@ -2,11 +2,13 @@ import { Link } from "@tanstack/react-router";
 import { EMAIL, PHONE, PHONE_TEL } from "./contact";
 
 export function SiteFooter() {
+  const logoSrc = `${import.meta.env.BASE_URL}logo1.png`;
+
   return (
     <footer className="bg-ink text-cream/70">
       <div className="container-luxe py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-2">
-          <img src={"/logo1.png"} alt="" className="h-16 w-auto brightness-0 invert opacity-90" />
+          <img src={logoSrc} alt="Dan Kush Metro Tile & Stone logo" className="h-16 w-auto brightness-0 invert opacity-90" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/60">
             Master tile and natural stone craftsmanship, designed and installed for the finest homes
             across New Jersey.

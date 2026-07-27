@@ -2,8 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Phone } from "lucide-react";
 import { Topbar } from "./topbar";
-import { PHONE, PHONE_TEL, EMAIL } from "./contact";
-
+import { PHONE, PHONE_TEL } from "./contact";
 const nav = [
   { label: "Home", to: "/" },
   { label: "Services", to: "/services" },
@@ -16,6 +15,7 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const path = useRouterState({ select: (s) => s.location.pathname });
+  const logoSrc = `${import.meta.env.BASE_URL}logo1.png`;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -46,7 +46,7 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
       >
         <div className="container-luxe flex items-center justify-between py-3">
           <Link to="/" className="flex items-center gap-3">
-            <img src={"/src/assets/images/logo1.png"} className="h-15 w-auto md:h-20" />
+            <img src={logoSrc} alt="Dan Kush Metro Tile & Stone logo" className="h-15 w-auto md:h-20" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-10">
