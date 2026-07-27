@@ -6,14 +6,14 @@ import { SiteFooter } from "@/components/site-footer";
 import { CtaBand, PrimaryLink, GhostLink } from "@/components/page-hero";
 
 import heroTiles from "@/assets/hero-tiles.jpg";
-import galleryKitchen from "@/assets/gallery-kitchen.jpg";
-import galleryFoyer from "@/assets/gallery-foyer.jpg";
-import galleryHerringbone from "@/assets/gallery-herringbone.jpg";
-import galleryShower from "@/assets/gallery-shower.jpg";
-import galleryPatio from "@/assets/gallery-patio.jpg";
-import heroBathroom from "@/assets/hero-bathroom.jpg";
-import textureMarble from "@/assets/texture-marble.jpg";
-import showroom from "@/assets/showroom-inventory.jpg";
+import galleryKitchen from "@/assets/images/img16.jpeg";
+import galleryFoyer from "@/assets/images/img17.jpeg";
+import galleryHerringbone from "@/assets/images/img15.jpeg";
+import galleryShower from "@/assets/images/img18.jpeg";
+import galleryPatio from "@/assets/images/img19.jpeg";
+import heroBathroom from "@/assets/images/img20.jpeg";
+import textureMarble from "@/assets/images/img25.jpeg";
+import showroom from "@/assets/images/img11.jpeg";
 
 export const Route = createFileRoute("/")({
   component: Index,

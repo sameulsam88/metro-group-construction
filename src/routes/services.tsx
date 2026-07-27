@@ -2,12 +2,12 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { CtaBand, PageHero } from "@/components/page-hero";
-import heroBathroom from "@/assets/hero-bathroom.jpg";
-import galleryKitchen from "@/assets/gallery-kitchen.jpg";
-import galleryShower from "@/assets/gallery-shower.jpg";
-import galleryPatio from "@/assets/gallery-patio.jpg";
-import galleryHerringbone from "@/assets/gallery-herringbone.jpg";
-import galleryFoyer from "@/assets/gallery-foyer.jpg";
+import heroBathroom from "@/assets/images/img23.jpeg";
+import galleryKitchen from "@/assets/images/img1.jpeg";
+import galleryShower from "@/assets/images/img24.jpeg";
+import galleryPatio from "@/assets/images/img13.jpeg";
+import galleryHerringbone from "@/assets/images/img8.jpeg";
+import galleryFoyer from "@/assets/images/img9.jpeg";
 
 export const Route = createFileRoute("/services")({
   head: () => ({

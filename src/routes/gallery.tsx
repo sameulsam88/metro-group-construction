@@ -5,13 +5,14 @@ import { SiteFooter } from "@/components/site-footer";
 import { CtaBand, PageHero } from "@/components/page-hero";
 import { GalleryTile } from "@/routes/index";
 
-import heroBathroom from "@/assets/hero-bathroom.jpg";
-import galleryKitchen from "@/assets/gallery-kitchen.jpg";
-import galleryFoyer from "@/assets/gallery-foyer.jpg";
-import galleryShower from "@/assets/gallery-shower.jpg";
-import galleryHerringbone from "@/assets/gallery-herringbone.jpg";
-import galleryPatio from "@/assets/gallery-patio.jpg";
 import heroTiles from "@/assets/hero-tiles.jpg";
+
+import img1 from "@/assets/images/img1.jpeg";
+import img3 from "@/assets/images/img25.jpeg";
+import img5 from "@/assets/images/img4.jpeg";
+import img7 from "@/assets/images/img6.jpeg";
+import img9 from "@/assets/images/img9.jpeg";
+import img12 from "@/assets/images/img12.jpeg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -35,17 +36,12 @@ export const Route = createFileRoute("/gallery")({
 type Item = { src: string; title: string; tag: string; category: string };
 
 const items: Item[] = [
-  { src: heroBathroom, title: "Calacatta Gold Suite", tag: "Master Bath", category: "Bath" },
-  { src: galleryFoyer, title: "Onyx Vein Foyer", tag: "Entry", category: "Interior" },
-  { src: galleryKitchen, title: "Ivory Subway Kitchen", tag: "Kitchen", category: "Kitchen" },
-  { src: galleryShower, title: "Silver Marble Shower", tag: "Wet Room", category: "Bath" },
-  {
-    src: galleryHerringbone,
-    title: "Travertine Herringbone",
-    tag: "Flooring",
-    category: "Interior",
-  },
-  { src: galleryPatio, title: "Bluestone Terrace", tag: "Exterior", category: "Exterior" },
+  { src: img1, title: "Calacatta Gold Suite", tag: "Master Bath", category: "Bath" },
+  { src: img3, title: "Onyx Vein Foyer", tag: "Entry", category: "Interior" },
+  { src: img5, title: "Ivory Subway Kitchen", tag: "Kitchen", category: "Kitchen" },
+  { src: img7, title: "Silver Marble Shower", tag: "Wet Room", category: "Bath" },
+  { src: img9, title: "Travertine Herringbone", tag: "Flooring", category: "Interior" },
+  { src: img12, title: "Bluestone Terrace", tag: "Exterior", category: "Exterior" },
 ];
 
 const categories = ["All", "Kitchen", "Bath", "Interior", "Exterior"] as const;

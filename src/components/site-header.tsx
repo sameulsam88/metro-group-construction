@@ -46,7 +46,7 @@ export function SiteHeader({ transparentOnTop: _ = true }: { transparentOnTop?: 
       >
         <div className="container-luxe flex items-center justify-between py-3">
           <Link to="/" className="flex items-center gap-3">
-            <img src={"/logo1.png"} className="h-15 w-auto md:h-20" />
+            <img src={"/src/assets/images/logo1.png"} className="h-15 w-auto md:h-20" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-10">
